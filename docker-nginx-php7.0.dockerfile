@@ -15,7 +15,7 @@ RUN composer init --quiet --no-interaction
 RUN composer require twig/twig --quiet --no-interaction
 
 # Copiamos nuestro código backend en el contenedor
-COPY backend /var/www/html/backend/
+COPY html /var/www/html/
 # Copiamos nuestra configuración de Nginx al contenedor
 COPY nginx.conf /etc/nginx/sites-available/default
 # Copiamos el script de inicialización al contenedor
