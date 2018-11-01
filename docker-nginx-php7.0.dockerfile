@@ -8,7 +8,7 @@ ENV DEBCONF_NONINTERACTIVE_SEEN true
 WORKDIR /var/www/html
 
 # Instalamos PHP, Nginx, Composer y eliminamos la página por defecto
-RUN apt-get update && apt-get install -y nginx php7.0-fpm composer && rm /var/www/html/index.*
+RUN apt-get update && apt-get install -y nginx php7.0-fpm composer ccze && rm /var/www/html/index.*
 
 # Iniciamos e istalamos Twig en Composer
 RUN composer init --quiet --no-interaction

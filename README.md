@@ -6,13 +6,13 @@
 git clone https://github.com/ManzDev/docker-nginx-php7.0.git
 ```
 
-##### Build docker image
+##### Build and run docker image
 
 ```bash
 sh build.sh
 ```
 
-##### Run docker container
+##### ONLY run docker container
 
 ```bash
 sh run.sh

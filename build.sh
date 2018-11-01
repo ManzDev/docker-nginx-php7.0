@@ -5,3 +5,4 @@
 # - "docker-nginx-php7.0.dockerfile" es el nombre de nuestro dockerfile
 # - "." es la carpeta del contexto (la carpeta actual)
 docker build -t manz/php7:1.0 -f docker-nginx-php7.0.dockerfile .
+sh run.sh
