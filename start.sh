@@ -9,5 +9,8 @@ service php7.0-fpm start
 service nginx start
 
 # Descomentar una (solo una) de las siguientes lineas
-#/bin/bash   # Para revisar temporalmente el contenedor
-tail -f /var/log/nginx/access.log /var/log/nginx/error.log | ccze   # Para mostrar errores
+
+# A) Para revisar temporalmente el contenedor
+#/bin/bash
+# B) Para mostrar errores
+tail -f /var/log/nginx/access.log /var/log/nginx/error.log | ccze
