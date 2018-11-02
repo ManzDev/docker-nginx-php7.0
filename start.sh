@@ -1,3 +1,7 @@
+# Iniciamos PHP Composer
+cd /var/www/html
+composer install --quiet --no-interaction
+
 # Iniciamos el servidor PHP-FPM
 service php7.0-fpm start
 

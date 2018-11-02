@@ -1,0 +1,29 @@
+body {
+  background: #3284ee;
+  color: #fff;
+}
+
+.pokedex {
+  background: #b62626;
+  width: 500px;
+  margin: 3em auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.pokedex h1 {
+  text-align: center;
+}
+
+.pokedex .screen {
+  width: 400px;
+  background: white;
+  margin: auto;
+  padding: 20px;
+  font-size: 22px;
+  color: #000;
+}
+
+.screen img {
+  max-width: 100%;
+}
